@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/jiapengfei/.nvm/versions/node/v11.13.0/bin/node /usr/local/bin/yarn add exprima
+
+PATH: 
+  /Users/jiapengfei/.nvm/versions/node/v11.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/jiapengfei/.nvm/versions/node/v11.13.0/bin:JAVA_HOME:/usr/local/maven3.6/bin:/Users/yotakara/Library/Python/2.7/bin:/usr/local/mysql/bin:JAVA_HOME:/usr/local/maven3.6/bin:/Users/yotakara/Library/Python/2.7/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  11.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/exprima: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1142:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "javascript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack --config webpack.config.js"
+    },
+    "author": "felix",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^5.3.2",
+      "webpack-cli": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
