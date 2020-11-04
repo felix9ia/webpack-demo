@@ -14,6 +14,7 @@
     "webpack-cli": "^4.1.0"
   },
   "dependencies": {
-    "esprima": "^4.0.1"
+    "esprima": "^4.0.1",
+    "estraverse": "^5.2.0"
   }
 }
